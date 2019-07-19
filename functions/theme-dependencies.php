@@ -10,5 +10,6 @@ add_action('wp_enqueue_scripts', 'enqueue_bitfyre_scripts');
 function enqueue_bitfyre_styles() {
     wp_enqueue_style('bootstrap-4x', 'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css');
     wp_enqueue_style('bitfyreStyles', get_template_directory_uri() . '/assets/styles/bitStyles.css', array(), filemtime(get_template_directory() . '/assets/styles/scss'), 'all' );
+    wp_enqueue_style('google-fonts', 'https://fonts.googleapis.com/css?family=Press+Start+2P|Roboto&display=swap');
 }
 add_action('wp_enqueue_scripts', 'enqueue_bitfyre_styles');
