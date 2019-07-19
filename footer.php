@@ -1,4 +1,4 @@
-		<!-- scripts -->
-		<?php wp_footer(); ?>
-	</body>
+<!-- scripts -->
+<?php wp_footer(); ?>
+</body>
 </html>

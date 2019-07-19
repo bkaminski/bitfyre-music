@@ -1,8 +1,37 @@
+html,body.home {
+	height: $full;
+}
+.soon {
+	bottom: 0;
+}
 .intro {
 	background-image: url('../img/bitfyreGlitch.gif');
 	background-repeat: no-repeat;
 	background-size: contain;
-	background-position: 50% 50%; 
+	background-position: 50% top; 
 	max-width: $full;
 	height: 800px;
+}
+.pixel-text {
+	font-family: 'Press Start 2P', cursive;
+	font-size: 16px;
+	letter-spacing: -1px;
+	font-style: italic;
+}
+.blink {
+  animation: blink 2s steps(5, start) infinite;
+  -webkit-animation: blink 1s steps(5, start) infinite;
+}
+
+@keyframes blink {
+  to {
+    visibility: hidden;
+  }
+}
+
+
+@-webkit-keyframes blink {
+  to {
+    visibility: hidden;
+  }
 }

@@ -5,3 +5,11 @@ body {
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Press Start 2P', cursive;
 }
+a {
+	color: #fff;
+	transition: 0.4s ease-in-out;
+	&:hover {
+		color: #ccc;
+		transition: 0.4s ease-in-out;
+	}
+}
