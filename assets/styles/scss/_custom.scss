@@ -1,40 +1,21 @@
-html,body.home {
-	height: $full;
+html, body { 
+  background: url('../../../../uploads/2020/04/background.svg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: #fff;
 }
-.soon {
-	bottom: 0;
-}
-.subscribe {
-	vertical-align: 2px !important;
-}
-.intro {
-	background-image: url('../img/bitfyreGlitch.gif');
+.main {
+	background: transparent;
+	background-image: url('../../../../uploads/2020/04/bitfyrelogo.svg');
+	background-position: 50% 50%;
+	background-size: cover;
 	background-repeat: no-repeat;
-	background-size: contain;
-	background-position: 50% top; 
-	max-width: $full;
-	height: 800px;
-}
-.pixel-text {
-	font-family: 'Press Start 2P', cursive;
-	font-size: 16px;
-	letter-spacing: -1px;
-	font-style: italic;
-}
-.blink {
-  animation: blink 2s steps(5, start) infinite;
-  -webkit-animation: blink 1s steps(5, start) infinite;
+	width: 100%;
+	min-height: 675px;
+	@include breakpoint (xs) {
+		background-size: contain;
+	}
 }
 
-@keyframes blink {
-  to {
-    visibility: hidden;
-  }
-}
-
-
-@-webkit-keyframes blink {
-  to {
-    visibility: hidden;
-  }
-}
