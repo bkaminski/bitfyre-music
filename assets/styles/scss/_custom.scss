@@ -13,7 +13,7 @@ html, body {
 	background-size: cover;
 	background-repeat: no-repeat;
 	width: 100%;
-	min-height: 600px;
+	min-height: 420px;
 	@include breakpoint (xs) {
 		background-size: contain;
 	}
