@@ -11,7 +11,7 @@
 		
 	</a>
 	<button class="navbar-toggler rounded-0" type="button" data-toggle="collapse" data-target="#bitfyreNav" aria-controls="bitfyreNav" aria-expanded="false" aria-label="Toggle navigation">
-		<i class="fas fa-bars fa-2x text-white"></i>
+		<i class="fas fa-bars text-white"></i>
 	</button>
 	<div class="collapse navbar-collapse text-uppercase font-weight-bold" id="bitfyreNav">
 		<?php

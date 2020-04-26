@@ -6,16 +6,16 @@ html, body {
   background-size: cover;
   color: #fff;
 }
-.main {
+.bit-main {
 	background: transparent;
 	background-image: url('../../../../uploads/2020/04/bitfyrelogo.svg');
 	background-position: 50% 50%;
 	background-size: cover;
 	background-repeat: no-repeat;
 	width: 100%;
-	min-height: 420px;
-	@include breakpoint (xs) {
-		background-size: contain;
+	min-height: 155px;
+	@include breakpoint (sm) {
+		min-height: 420px;
 	}
 }
 

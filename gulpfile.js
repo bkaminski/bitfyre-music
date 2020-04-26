@@ -12,7 +12,7 @@ gulp.task('sass', function() {
         .pipe($.plumber({errorHandler: onError}))
         .pipe($.sourcemaps.init())
         .pipe($.sass.sync({outputStyle: 'compressed', includePaths: require('bourbon').includePaths}))
-        .pipe($.rename('bitStyles.min.css'))
+        .pipe($.rename('bitFyreStyles.min.css'))
         .pipe($.autoprefixer())
         .pipe($.sourcemaps.write('./'))
         .pipe(gulp.dest('assets/styles'))
