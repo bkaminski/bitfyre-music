@@ -1,0 +1,30 @@
+{
+  "name": "bitfyre-music",
+  "version": "1.0.0",
+  "description": "Custom WordPress theme for Bytfyre dubstep",
+  "main": "index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bkaminski/bitfyre-music.git"
+  },
+  "keywords": [
+    "wordpress",
+    "theme",
+    "php",
+    "jquery",
+    "bootstrap",
+    "4x"
+  ],
+  "author": "Ben Kaminski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bkaminski/bitfyre-music/issues"
+  },
+  "homepage": "https://github.com/bkaminski/bitfyre-music#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}
