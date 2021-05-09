@@ -1,5 +1,13 @@
-.modal-title {
-	letter-spacing: -1px;
-	font-style: italic;
-	font-weight: bold;
+a.nav-link {
+	color: #fff;
+	font-size:1.2rem;
+	transition: 0.3s ease-in-out;
+	margin-right: 30px;
+	&:hover {
+		color: #fff;
+		transition: 0.3s ease-in-out;
+	}
+}
+.navbar-nav > .active > a { 
+    color: #222;
 }
