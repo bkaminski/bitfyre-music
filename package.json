@@ -29,7 +29,7 @@
   },
   "dependencies": {
     "bourbon": "^7.0.0",
-    "browser-sync": "^2.26.14",
+    "browser-sync": "^2.27.10",
     "gulp-autoprefixer": "^7.0.1",
     "gulp-concat": "^2.6.1",
     "gulp-load-plugins": "^2.0.6",
